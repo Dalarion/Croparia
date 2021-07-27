@@ -1,10 +1,7 @@
 package com.croparia.mod.core.init;
 
 import com.croparia.mod.CropariaMod;
-import com.croparia.mod.common.blocks.CropariaCrops;
-import com.croparia.mod.common.blocks.Greenhouse;
-import com.croparia.mod.common.blocks.Infusor;
-import com.croparia.mod.common.blocks.RitualStand;
+import com.croparia.mod.common.blocks.*;
 import com.croparia.mod.core.Crops;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -20,6 +17,13 @@ public class BlockInit {
 
     //Blocks
     public static final RegistryObject<Block> ELEMENTAL_STONE = BLOCKS.register("elemental_stone", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)));
+    public static final RegistryObject<Accelerator> ACCELERATOR = BLOCKS.register("accelerator", () -> new Accelerator(5));
+
+    //Technical
+    public static final RegistryObject<CropGenerator> GENERATOR = BLOCKS.register("crop_generator", () -> new CropGenerator());
+    public static final RegistryObject<Collector> COLLECTOR = BLOCKS.register("collector", () -> new Collector());
+    public static final RegistryObject<Battery> BATTERY = BLOCKS.register("battery", () -> new Battery());
+    public static final RegistryObject<SeedRecycler> SEED_RECYCLER = BLOCKS.register("seed_recycler", () -> new SeedRecycler());
 
     //Recipes Blocks
     public static final RegistryObject<Infusor> INFUSOR = BLOCKS.register("infusor", () -> new Infusor());

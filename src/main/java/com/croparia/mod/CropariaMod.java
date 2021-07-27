@@ -18,6 +18,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import org.apache.logging.log4j.core.script.ScriptRef;
 
 @Mod("croparia")
 public class CropariaMod
@@ -39,12 +40,12 @@ public class CropariaMod
         BlockInit.BLOCKS.register(bus);
 
         BlockEntityInit.BLOCK_ENTITIES.register(bus);
+
+        MenuInit.CONTAINERS_TYPES.register(bus);
+
      /*
         bus.addGenericListener(Feature.class, PlantsGenerations::registerFeatures);
 
-
-		ContainersInit.CONTAINERS_TYPES.register(bus);
-		
 		MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, PlantsGenerations::generatePlants);
 		
 		bus.register(new ModRecipeSerializers());
@@ -61,7 +62,8 @@ public class CropariaMod
     
     private void doClientStuff(final FMLClientSetupEvent event) 
     {
-    	RenderingHandler.init();
+        RenderingHandler.init();
+        ScreenInit.init();
     }
     
     public static class CropariaGroup extends CreativeModeTab{

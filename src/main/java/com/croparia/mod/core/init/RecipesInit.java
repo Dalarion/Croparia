@@ -17,7 +17,7 @@ public class RecipesInit {
 	}
 
 	public static void registerInfusorRecipes() {
-		//	InfusorRecipe.addRecipe("elemental_stone", Items.STONE, ElementsEnum.ELEMENTAL, ItemInit.ELEMENTAL_STONE.get());
+		InfusorRecipe.addRecipe("elemental_stone", Items.STONE, ElementsEnum.ELEMENTAL, ItemInit.ELEMENTAL_STONE.get());
 
 		InfusorRecipe.addRecipe("croparia2", ItemInit.CROPARIA.get(), ElementsEnum.ELEMENTAL, ItemInit.CROPARIA2.get());
 		InfusorRecipe.addRecipe("croparia3", ItemInit.CROPARIA2.get(), ElementsEnum.ELEMENTAL, ItemInit.CROPARIA3.get());
@@ -88,9 +88,9 @@ public class RecipesInit {
 		RitualRecipe.addRecipe("horn_plenty", Items.SPRUCE_LOG, Blocks.NETHER_WART_BLOCK.defaultBlockState(), ItemInit.HORN_PLENTY.get(), 1);
 		RitualRecipe.addRecipe("infinite_apple", Items.GOLDEN_APPLE, Blocks.NETHER_WART_BLOCK.defaultBlockState(), ItemInit.INFINITE_APPLE.get(), 1);
 		
-	//	RitualRecipe.addRecipe("accelerator", Items.CLOCK, BlockInit.ELEMENTAL_STONE.get().defaultBlockState(), ItemInit.ACCELERATOR.get(), 2);
-	//	RitualRecipe.addRecipe("elemental_time", ItemInit.ELEMATILIUS.get(), BlockInit.ACCELERATOR.get().defaultBlockState(), ItemInit.ELEMENTAL_TIME.get(), 2);
-	//	RitualRecipe.addRecipe("collector", ItemInit.RENFORCED_HOE.get(), Blocks.IRON_BLOCK.defaultBlockState(), ItemInit.COLLECTOR.get(), 2);
+		RitualRecipe.addRecipe("accelerator", Items.CLOCK, BlockInit.ELEMENTAL_STONE.get().defaultBlockState(), ItemInit.ACCELERATOR.get(), 2);
+		RitualRecipe.addRecipe("elemental_time", ItemInit.ELEMATILIUS.get(), BlockInit.ACCELERATOR.get().defaultBlockState(), ItemInit.ELEMENTAL_TIME.get(), 2);
+		RitualRecipe.addRecipe("collector", ItemInit.RENFORCED_HOE.get(), Blocks.IRON_BLOCK.defaultBlockState(), ItemInit.COLLECTOR.get(), 2);
 	}
 
 

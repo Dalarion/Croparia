@@ -143,10 +143,10 @@ public class ItemInit {
     public static final RegistryObject<Multitool> NETHERITE_MULTITOOL = ITEMS.register("netherite_multitool", () -> new Multitool(0, 0, ModTiers.NETHERITE_MULTI));
     public static final RegistryObject<Multitool> OBSIDIAN_MULTITOOL = ITEMS.register("obsidian_multitool", () -> new Multitool(0, 0, ModTiers.OBSIDIAN_MULTI));
     public static final RegistryObject<Multitool> RENFORCED_MULTITOOL = ITEMS.register("renforced_multitool", () -> new Multitool(0, 0, ModTiers.RENFORCED_MULTI));
-
+    public static final RegistryObject<CropariaTool> TOOL = ITEMS.register("rf_meter", () -> new CropariaTool());
 
     //BlockItem
-    public static final RegistryObject<ItemNameBlockItem> INFUSOR = ITEMS.register("infusor", () -> new ItemNameBlockItem(BlockInit.INFUSOR.get(), new Item.Properties().tab(CropariaMod.MAIN)));
+    public static final RegistryObject<ItemNameBlockItem> ELEMENTAL_STONE = ITEMS.register("elemental_stone", () -> new ItemNameBlockItem(BlockInit.ELEMENTAL_STONE.get(), new Item.Properties().tab(CropariaMod.MAIN)));
     public static final RegistryObject<GreenHouseBlockItem> GREENHOUSE = ITEMS.register("greenhouse", () -> new GreenHouseBlockItem(BlockInit.GREENHOUSE.get(), new Item.Properties().tab(CropariaMod.MAIN)));
     public static final RegistryObject<GreenHouseBlockItem> GREENHOUSE_WHITE = ITEMS.register("greenhouse_white", () -> new GreenHouseBlockItem(BlockInit.GREENHOUSE_WHITE.get(), new Item.Properties().tab(CropariaMod.MAIN)));
     public static final RegistryObject<GreenHouseBlockItem> GREENHOUSE_ORANGE = ITEMS.register("greenhouse_orange", () -> new GreenHouseBlockItem(BlockInit.GREENHOUSE_ORANGE.get(), new Item.Properties().tab(CropariaMod.MAIN)));
@@ -164,6 +164,13 @@ public class ItemInit {
     public static final RegistryObject<GreenHouseBlockItem> GREENHOUSE_GREEN = ITEMS.register("greenhouse_green", () -> new GreenHouseBlockItem(BlockInit.GREENHOUSE_GREEN.get(), new Item.Properties().tab(CropariaMod.MAIN)));
     public static final RegistryObject<GreenHouseBlockItem> GREENHOUSE_RED = ITEMS.register("greenhouse_red", () -> new GreenHouseBlockItem(BlockInit.GREENHOUSE_RED.get(), new Item.Properties().tab(CropariaMod.MAIN)));
     public static final RegistryObject<GreenHouseBlockItem> GREENHOUSE_BLACK = ITEMS.register("greenhouse_black", () -> new GreenHouseBlockItem(BlockInit.GREENHOUSE_BLACK.get(), new Item.Properties().tab(CropariaMod.MAIN)));
+    public static final RegistryObject<ItemNameBlockItem> INFUSOR = ITEMS.register("infusor", () -> new ItemNameBlockItem(BlockInit.INFUSOR.get(), new Item.Properties().tab(CropariaMod.MAIN)));
+    public static final RegistryObject<ItemNameBlockItem> RITUAL_STAND = ITEMS.register("ritual_stand", () -> new ItemNameBlockItem(BlockInit.RITUAL_STAND.get(), new Item.Properties().tab(CropariaMod.MAIN)));
+    public static final RegistryObject<ItemNameBlockItem> ACCELERATOR = ITEMS.register("accelerator", () -> new ItemNameBlockItem(BlockInit.ACCELERATOR.get(), new Item.Properties().tab(CropariaMod.MAIN)));
+    public static final RegistryObject<ItemNameBlockItem> COLLECTOR = ITEMS.register("collector", () -> new ItemNameBlockItem(BlockInit.COLLECTOR.get(), new Item.Properties().tab(CropariaMod.MAIN)));
+    public static final RegistryObject<ItemNameBlockItem> GENERATOR = ITEMS.register("crop_generator", () -> new ItemNameBlockItem(BlockInit.GENERATOR.get(), new Item.Properties().tab(CropariaMod.MAIN)));
+    public static final RegistryObject<ItemNameBlockItem> SEED_RECYCLER = ITEMS.register("seed_recycler", () -> new ItemNameBlockItem(BlockInit.SEED_RECYCLER.get(), new Item.Properties().tab(CropariaMod.MAIN)));
+    public static final RegistryObject<ItemNameBlockItem> BATTERY = ITEMS.register("battery", () -> new ItemNameBlockItem(BlockInit.BATTERY.get(), new Item.Properties().tab(CropariaMod.MAIN)));
 
     //Ritual Tier Icon
     public static final RegistryObject<Item> TIER_ICON_1 = ITEMS.register("tier_icon_1", () -> new Item(new Item.Properties()));

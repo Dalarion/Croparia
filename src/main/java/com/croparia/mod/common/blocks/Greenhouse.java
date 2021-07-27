@@ -37,7 +37,9 @@ public class Greenhouse extends BaseEntityBlock {
 	protected final VoxelShape SHAPE = Block.box(1.0D, 1.0D, 0.0D, 15.0D, 3.0D, 15.0D);
 
 	public Greenhouse() {
-		super(BlockBehaviour.Properties.of(Material.GLASS).randomTicks());
+		super(BlockBehaviour.Properties.of(Material.GLASS).randomTicks().lightLevel(param -> {
+			return 9;
+		}));
 		blockGreenhouse.add(this);
 	}
 
