@@ -1,0 +1,12 @@
+{
+  "type": "croparia:shapeless_tag",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_enderball"
+    }
+    ],
+  "result": {
+    "tag": "forge:slimeball/ender",
+    "count": 2
+  }
+}

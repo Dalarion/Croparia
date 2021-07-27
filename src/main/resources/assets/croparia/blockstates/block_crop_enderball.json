@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "croparia:block/crop_stage0"
+    },
+    "age=1": {
+      "model": "croparia:block/crop_stage1"
+    },
+    "age=2": {
+      "model": "croparia:block/crop_stage2"
+    },
+    "age=3": {
+      "model": "croparia:block/crop_stage3"
+    },
+    "age=4": {
+      "model": "croparia:block/crop_stage4"
+    },
+    "age=5": {
+      "model": "croparia:block/enderball_stage5"
+    },
+    "age=6": {
+      "model": "croparia:block/enderball_stage6"
+    },
+    "age=7": {
+      "model": "croparia:block/enderball_stage7"
+    }
+  }
+}

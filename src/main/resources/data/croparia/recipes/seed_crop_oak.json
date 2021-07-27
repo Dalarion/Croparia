@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MPM",
+    "PSP",
+    "MPM"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:oak_sapling"
+    },
+    "S": {
+      "item": "croparia:croparia"
+    },
+    "P": {
+      "tag": "forge:seeds"
+    }
+  },
+  "result": {
+    "item": "croparia:seed_crop_oak"
+  }
+}

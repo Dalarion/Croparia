@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_crystal"
+    }
+    ],
+  "result": {
+    "item": "minecraft:prismarine_crystals",
+    "count": 6
+  },
+    "group": "CropariaFruitMat"
+}

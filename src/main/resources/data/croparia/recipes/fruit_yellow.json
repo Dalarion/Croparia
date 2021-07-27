@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_yellow"
+    }
+    ],
+  "result": {
+    "item": "minecraft:yellow_dye",
+    "count": 2
+  },
+    "group": "CropariaFruitColor"
+}

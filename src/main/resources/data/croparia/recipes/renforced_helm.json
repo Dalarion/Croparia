@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  " D ", 
+  "DOD", 
+  " D "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "O":
+    {
+      "item": "croparia:obsidian_helmet"
+    }
+  },
+  "result": {
+    "item": "croparia:renforced_helmet"
+  },
+    "group": "RenforcedStuff"
+}

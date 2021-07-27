@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "infusor_type=empty": { "model": "croparia:block/infusor" },
+        "infusor_type=elemental": { "model": "croparia:block/infusor_elemental" },
+        "infusor_type=air": { "model": "croparia:block/infusor_air" },
+        "infusor_type=water": { "model": "croparia:block/infusor_water" },
+        "infusor_type=earth": { "model": "croparia:block/infusor_earth" },
+        "infusor_type=fire": { "model": "croparia:block/infusor_fire" },
+        "infusor_type=blood": { "model": "croparia:block/infusor_blood" }
+    }
+}

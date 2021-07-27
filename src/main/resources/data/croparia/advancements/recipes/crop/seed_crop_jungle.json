@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "croparia:seed_crop_jungle"
+    ]
+  },
+  "criteria": {
+    "has_jungle_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:jungle_sapling"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "croparia:seed_crop_jungle"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_jungle_ingredient",
+      "has_the_recipe"
+    ]
+  ]
+}

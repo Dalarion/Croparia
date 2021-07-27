@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "croparia:blocks/crop/ironwood_stage_5"
+  }
+}

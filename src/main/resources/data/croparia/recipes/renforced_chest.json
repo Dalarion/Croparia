@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  " D ", 
+  "DOD", 
+  " D "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "O":
+    {
+      "item": "croparia:obsidian_chestplate"
+    }
+  },
+  "result": {
+    "item": "croparia:renforced_chestplate"
+  },
+    "group": "RenforcedStuff"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_powder"
+    }
+    ],
+  "result": {
+    "item": "minecraft:gunpowder",
+    "count": 2
+  },
+    "group": "CropariaFruitMonster"
+}

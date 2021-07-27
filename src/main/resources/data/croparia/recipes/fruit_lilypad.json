@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_lilypad"
+    }
+    ],
+  "result": {
+    "item": "minecraft:lily_pad",
+    "count": 2
+  },
+    "group": "CropariaFruitNatural"
+}

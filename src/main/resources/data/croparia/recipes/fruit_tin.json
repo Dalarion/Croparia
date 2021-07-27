@@ -1,0 +1,12 @@
+{
+  "type": "croparia:shapeless_tag",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_tin"
+    }
+    ],
+  "result": {
+    "tag": "forge:ingots/tin",
+    "count": 2
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_ink"
+    }
+    ],
+  "result": {
+    "item": "minecraft:ink_sac",
+    "count": 2
+  },
+    "group": "CropariaFruitAnimal"
+}

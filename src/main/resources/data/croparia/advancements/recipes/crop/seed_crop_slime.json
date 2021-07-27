@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "croparia:seed_crop_slime"
+    ]
+  },
+  "criteria": {
+    "has_slime_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:slime_ball"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "croparia:seed_crop_slime"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_slime_ingredient",
+      "has_the_recipe"
+    ]
+  ]
+}

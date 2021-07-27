@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  " D", 
+  "O "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "O":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "croparia:netherite_knife"
+  },
+    "group": "Knife"
+}

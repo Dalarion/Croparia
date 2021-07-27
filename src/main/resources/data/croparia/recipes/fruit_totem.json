@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_totem"
+    }
+    ],
+  "result": {
+    "item": "minecraft:totem_of_undying",
+    "count": 2
+  },
+    "group": "CropariaFruitMat"
+}

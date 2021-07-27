@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  " O", 
+  "D "
+  ],
+  "key": {
+    "D": {
+      "tag": "minecraft:stone_tool_materials"
+    },
+    "O":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "croparia:stone_pestle"
+  },
+    "group": "Pestle"
+}

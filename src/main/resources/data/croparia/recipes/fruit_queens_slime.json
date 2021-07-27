@@ -1,0 +1,12 @@
+{
+  "type": "croparia:shapeless_tag",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_queens_slime"
+    }
+    ],
+  "result": {
+    "tag": "forge:ingots/queens_slime",
+    "count": 2
+  }
+}

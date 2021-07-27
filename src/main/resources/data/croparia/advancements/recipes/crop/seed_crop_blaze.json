@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "croparia:seed_crop_blaze"
+    ]
+  },
+  "criteria": {
+    "has_blaze_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:blaze_rod"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "croparia:seed_crop_blaze"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_blaze_ingredient",
+      "has_the_recipe"
+    ]
+  ]
+}

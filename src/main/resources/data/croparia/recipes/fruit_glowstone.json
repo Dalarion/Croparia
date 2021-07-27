@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_glowstone"
+    }
+    ],
+  "result": {
+    "item": "minecraft:glowstone_dust",
+    "count": 6
+  },
+    "group": "CropariaFruitMat"
+}

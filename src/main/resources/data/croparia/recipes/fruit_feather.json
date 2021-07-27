@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_feather"
+    }
+    ],
+  "result": {
+    "item": "minecraft:feather",
+    "count": 4
+  },
+    "group": "CropariaFruitAnimal"
+}

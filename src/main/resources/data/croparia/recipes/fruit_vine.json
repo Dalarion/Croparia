@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_vine"
+    }
+    ],
+  "result": {
+    "item": "minecraft:vine",
+    "count": 2
+  },
+    "group": "CropariaFruitNatural"
+}

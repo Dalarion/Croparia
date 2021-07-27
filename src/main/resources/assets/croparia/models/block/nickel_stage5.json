@@ -1,0 +1,6 @@
+{
+    "parent": "block/crop",
+    "textures": {
+        "crop": "croparia:blocks/crop/nickel_stage_5"
+    }
+}

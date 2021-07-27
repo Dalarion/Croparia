@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_clownfish"
+    }
+    ],
+  "result": {
+    "item": "minecraft:tropical_fish",
+    "count": 2
+  },
+    "group": "CropariaFruitFood"
+}

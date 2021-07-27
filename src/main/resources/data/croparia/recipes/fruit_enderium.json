@@ -1,0 +1,12 @@
+{
+  "type": "croparia:shapeless_tag",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_enderium"
+    }
+    ],
+  "result": {
+    "tag": "forge:ingots/enderium",
+    "count": 2
+  }
+}

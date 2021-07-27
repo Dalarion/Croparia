@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_blaze"
+    }
+    ],
+  "result": {
+    "item": "minecraft:blaze_rod",
+    "count": 2
+  },
+    "group": "CropariaFruitMonster"
+}

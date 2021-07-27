@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_dragon"
+    }
+    ],
+  "result": {
+    "item": "minecraft:dragon_egg",
+    "count": 1
+  },
+    "group": "CropariaFruitBoss"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+	{
+      "item": "croparia:netherite_pestle"
+    }
+  ],
+  "result": {
+    "item": "croparia:flour",
+    "count": 8
+  },
+    "group": "flour"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "croparia:shapeless_tag",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_nickel"
+    }
+    ],
+  "result": {
+    "tag": "forge:ingots/nickel",
+    "count": 2
+  }
+}

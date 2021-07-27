@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  " D", 
+  "O "
+  ],
+  "key": {
+    "D": {
+      "tag": "minecraft:planks"
+    },
+    "O":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "croparia:wood_knife"
+  },
+    "group": "Knife"
+}

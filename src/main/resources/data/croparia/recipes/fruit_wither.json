@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_wither"
+    }
+    ],
+  "result": {
+    "item": "minecraft:wither_rose",
+    "count": 1
+  },
+    "group": "CropariaFruitBoss"
+}

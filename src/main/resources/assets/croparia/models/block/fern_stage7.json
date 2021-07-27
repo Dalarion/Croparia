@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "croparia:blocks/crop/fern_stage_7"
+  }
+}

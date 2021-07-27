@@ -1,0 +1,12 @@
+{
+  "type": "croparia:shapeless_tag",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_elementium"
+    }
+    ],
+  "result": {
+    "tag": "forge:ingots/elementium",
+    "count": 2
+  }
+}

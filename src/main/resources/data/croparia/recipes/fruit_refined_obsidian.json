@@ -1,0 +1,12 @@
+{
+  "type": "croparia:shapeless_tag",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_refined_obsidian"
+    }
+    ],
+  "result": {
+    "tag": "forge:ingots/refined_obsidian",
+    "count": 2
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ISI", 
+    "SPS", 
+    "ISI"
+  ],
+  "key": {
+    "P": {
+      "item": "croparia:croparia3"
+    },
+    "S": {
+      "tag": "forge:seeds"
+    },
+    "I": {
+      "tag": "forge:ingots/queens_slime"
+    }
+  },
+  "result": {
+    "item": "croparia:seed_crop_queens_slime"
+  }
+}

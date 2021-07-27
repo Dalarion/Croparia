@@ -1,0 +1,6 @@
+{
+    "parent": "block/crop",
+    "textures": {
+        "crop": "croparia:blocks/crop/glow_stage_6"
+    }
+}

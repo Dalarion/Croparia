@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  " D ", 
+  "DOD", 
+  " D "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "O":
+    {
+      "item": "croparia:obsidian_pickaxe"
+    }
+  },
+  "result": {
+    "item": "croparia:renforced_pickaxe"
+  },
+    "group": "RenforcedStuff"
+}

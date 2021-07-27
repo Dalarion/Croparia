@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  " O", 
+  "D "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:iron_ingot"
+    },
+    "O":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "croparia:iron_pestle"
+  },
+    "group": "Pestle"
+}

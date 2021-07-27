@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "croparia:seed_crop_egg"
+    ]
+  },
+  "criteria": {
+    "has_egg_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:egg"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "croparia:seed_crop_egg"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_egg_ingredient",
+      "has_the_recipe"
+    ]
+  ]
+}

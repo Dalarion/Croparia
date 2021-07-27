@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_charcoal"
+    }
+    ],
+  "result": {
+    "item": "minecraft:charcoal",
+    "count": 2
+  },
+    "group": "CropariaFruitMat"
+}

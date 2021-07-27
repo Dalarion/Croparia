@@ -1,0 +1,12 @@
+{
+  "type": "croparia:shapeless_tag",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_pigiron"
+    }
+    ],
+  "result": {
+    "tag": "forge:ingots/pig_iron",
+    "count": 2
+  }
+}

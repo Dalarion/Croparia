@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_black"
+    }
+    ],
+  "result": {
+    "item": "minecraft:black_dye",
+    "count": 2
+  },
+    "group": "CropariaFruitColor"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+        "end": "croparia:blocks/output",
+    	"side": "croparia:blocks/crop_generator_side"
+    }
+}

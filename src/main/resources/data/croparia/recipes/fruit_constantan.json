@@ -1,0 +1,12 @@
+{
+  "type": "croparia:shapeless_tag",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_constantan"
+    }
+    ],
+  "result": {
+    "tag": "forge:ingots/constantan",
+    "count": 2
+  }
+}

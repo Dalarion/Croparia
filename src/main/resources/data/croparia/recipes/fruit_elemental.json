@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_elemental"
+    }
+    ],
+  "result": {
+    "item": "croparia:elematilius",
+    "count": 1
+  },
+    "group": "CropariaFruit"
+}

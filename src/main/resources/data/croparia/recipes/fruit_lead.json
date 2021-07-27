@@ -1,0 +1,12 @@
+{
+  "type": "croparia:shapeless_tag",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_lead"
+    }
+    ],
+  "result": {
+    "tag": "forge:ingots/lead",
+    "count": 2
+  }
+}

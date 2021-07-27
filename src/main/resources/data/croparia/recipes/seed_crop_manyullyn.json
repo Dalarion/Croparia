@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ISI", 
+    "SPS", 
+    "ISI"
+  ],
+  "key": {
+    "P": {
+      "item": "croparia:croparia3"
+    },
+    "S": {
+      "tag": "forge:seeds"
+    },
+    "I": {
+      "tag": "forge:ingots/manyullyn"
+    }
+  },
+  "result": {
+    "item": "croparia:seed_crop_manyullyn"
+  }
+}

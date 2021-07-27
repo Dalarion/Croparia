@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_zombie"
+    }
+    ],
+  "result": {
+    "item": "minecraft:rotten_flesh",
+    "count": 2
+  },
+    "group": "CropariaFruitMonster"
+}

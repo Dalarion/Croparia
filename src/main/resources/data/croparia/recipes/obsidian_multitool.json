@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:obsidian_axe"
+    },
+    {
+      "item": "croparia:obsidian_pickaxe"
+    },
+    {
+      "item": "croparia:obsidian_shovel"
+    },
+    {
+      "item": "croparia:obsidian_hoe"
+    }
+    ],
+  "result": {
+    "item": "croparia:obsidian_multitool"
+  },
+    "group": "Multitool"
+}

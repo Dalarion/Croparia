@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_glowink"
+    }
+    ],
+  "result": {
+    "item": "minecraft:glow_ink_sac",
+    "count": 2
+  }
+}

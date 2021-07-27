@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_diamond"
+    }
+    ],
+  "result": {
+    "item": "minecraft:diamond",
+    "count": 2
+  },
+    "group": "CropariaFruit"
+}

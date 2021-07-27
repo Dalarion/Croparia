@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_netherite"
+    }
+    ],
+  "result": {
+    "item": "minecraft:netherite_scrap",
+    "count": 2
+  },
+    "group": "CropariaFruit"
+}

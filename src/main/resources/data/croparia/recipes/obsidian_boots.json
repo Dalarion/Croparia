@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  " I ", 
+  "IPI", 
+  " I "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:obsidian"
+    },
+    "P": {
+      "item": "minecraft:netherite_boots"
+    }
+  },
+  "result": {
+    "item": "croparia:obsidian_boots"
+  },
+    "group": "ObsidianStuff"
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "block/crop",
+    "textures": {
+        "crop": "croparia:blocks/crop/tin_stage_5"
+    }
+}

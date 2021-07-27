@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  " I ", 
+  "INI", 
+  " I "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:obsidian"
+    },
+    "N":
+    {
+      "item": "croparia:netherite_pestle"
+    }
+  },
+  "result": {
+    "item": "croparia:obsidian_pestle"
+  },
+    "group": "Pestle"
+}

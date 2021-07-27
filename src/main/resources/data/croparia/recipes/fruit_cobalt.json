@@ -1,0 +1,12 @@
+{
+  "type": "croparia:shapeless_tag",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_cobalt"
+    }
+    ],
+  "result": {
+    "tag": "forge:ingots/cobalt",
+    "count": 2
+  }
+}

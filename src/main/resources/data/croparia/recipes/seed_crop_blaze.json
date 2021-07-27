@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MPM",
+    "PSP",
+    "MPM"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:blaze_rod"
+    },
+    "S": {
+      "item": "croparia:croparia3"
+    },
+    "P": {
+      "tag": "forge:seeds"
+    }
+  },
+  "result": {
+    "item": "croparia:seed_crop_blaze"
+  }
+}

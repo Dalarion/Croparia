@@ -1,0 +1,12 @@
+{
+  "type": "croparia:shapeless_tag",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_dragonstone"
+    }
+    ],
+  "result": {
+    "tag": "forge:gems/dragonstone",
+    "count": 2
+  }
+}

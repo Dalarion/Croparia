@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "croparia:flour"
+    },
+    "result": "minecraft:bread",
+    "experience": 0.3,
+    "cookingtime": 150
+}

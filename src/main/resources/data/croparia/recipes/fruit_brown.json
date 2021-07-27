@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_brown"
+    }
+    ],
+  "result": {
+    "item": "minecraft:cocoa_beans",
+    "count": 2
+  },
+    "group": "CropariaFruitColor"
+}

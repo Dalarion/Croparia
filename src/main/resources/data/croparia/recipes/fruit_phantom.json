@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_phantom"
+    }
+    ],
+  "result": {
+    "item": "minecraft:phantom_membrane",
+    "count": 2
+  },
+    "group": "CropariaFruitMonster"
+}

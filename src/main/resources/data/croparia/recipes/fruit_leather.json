@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_leather"
+    }
+    ],
+  "result": {
+    "item": "minecraft:leather",
+    "count": 2
+  },
+    "group": "CropariaFruitAnimal"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "croparia:shapeless_tag",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_slimesteel"
+    }
+    ],
+  "result": {
+    "tag": "forge:ingots/slimesteel",
+    "count": 2
+  }
+}

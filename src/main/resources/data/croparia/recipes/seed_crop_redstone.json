@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MPM",
+    "PSP",
+    "MPM"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:redstone"
+    },
+    "S": {
+      "item": "croparia:croparia3"
+    },
+    "P": {
+      "tag": "forge:seeds"
+    }
+  },
+  "result": {
+    "item": "croparia:seed_crop_redstone"
+  }
+}

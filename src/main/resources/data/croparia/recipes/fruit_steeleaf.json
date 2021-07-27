@@ -1,0 +1,12 @@
+{
+  "type": "croparia:shapeless_tag",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_steeleaf"
+    }
+    ],
+  "result": {
+    "tag": "twilightforest:ingots/steeleaf",
+    "count": 2
+  }
+}

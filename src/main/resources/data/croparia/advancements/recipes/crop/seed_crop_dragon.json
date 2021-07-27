@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "croparia:seed_crop_dragon"
+    ]
+  },
+  "criteria": {
+    "has_dragon_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dragon_egg"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "croparia:seed_crop_dragon"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_dragon_ingredient",
+      "has_the_recipe"
+    ]
+  ]
+}

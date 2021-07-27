@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_bread"
+    }
+    ],
+  "result": {
+    "item": "minecraft:bread",
+    "count": 2
+  },
+    "group": "CropariaFruitFood"
+}

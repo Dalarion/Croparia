@@ -1,0 +1,12 @@
+{
+  "type": "croparia:shapeless_tag",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_starmetal"
+    }
+    ],
+  "result": {
+    "tag": "astralsorcery:starmetal",
+    "count": 2
+  }
+}

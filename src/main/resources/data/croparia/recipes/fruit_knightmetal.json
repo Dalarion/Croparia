@@ -1,0 +1,12 @@
+{
+  "type": "croparia:shapeless_tag",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_knightmetal"
+    }
+    ],
+  "result": {
+    "tag": "twilightforest:ingots/knightmetal",
+    "count": 2
+  }
+}

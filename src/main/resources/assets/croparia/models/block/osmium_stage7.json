@@ -1,0 +1,7 @@
+{
+    "parent": "block/crop",
+    "textures": {
+        "crop": "croparia:blocks/crop/osmium_stage_7"
+    }
+}
+

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MPM",
+    "PSP",
+    "MPM"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:scute"
+    },
+    "S": {
+      "item": "croparia:croparia2"
+    },
+    "P": {
+      "tag": "forge:seeds"
+    }
+  },
+  "result": {
+    "item": "croparia:seed_crop_scute"
+  }
+}

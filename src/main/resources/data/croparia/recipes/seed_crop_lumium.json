@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ISI", 
+    "SPS", 
+    "ISI"
+  ],
+  "key": {
+    "P": {
+      "item": "croparia:croparia2"
+    },
+   "S": {
+      "tag": "forge:seeds"
+    },
+    "I": {
+      "tag": "forge:ingots/lumium"
+    }
+  },
+  "result": {
+    "item": "croparia:seed_crop_lumium"
+  }
+}

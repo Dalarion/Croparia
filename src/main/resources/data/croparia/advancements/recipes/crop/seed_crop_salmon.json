@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "croparia:seed_crop_salmon"
+    ]
+  },
+  "criteria": {
+    "has_salmon_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:salmon"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "croparia:seed_crop_salmon"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_salmon_ingredient",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "croparia:shapeless_tag",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_steel"
+    }
+    ],
+  "result": {
+    "tag": "forge:ingots/steel",
+    "count": 2
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ISI", 
+    "SPS", 
+    "ISI"
+  ],
+  "key": {
+    "P": {
+      "item": "croparia:croparia4"
+    },
+    "S": [
+    {
+      "item": "minecraft:wheat_seeds"
+    },
+    {
+      "item": "minecraft:pumpkin_seeds"
+    },
+    {
+      "item": "minecraft:melon_seeds"
+    },
+    {
+      "item": "minecraft:beetroot_seeds"
+    }
+    ],
+    "I": {
+      "item": "croparia:elematilius"
+    }
+  },
+  "result": {
+    "item": "croparia:seed_crop_elemental"
+  },
+    "group": "CropariaT4"
+}

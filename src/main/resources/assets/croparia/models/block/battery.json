@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "croparia:blocks/output",
+    "north": "croparia:blocks/output",
+    "south": "croparia:blocks/output",
+    "east": "croparia:blocks/output",
+    "west": "croparia:blocks/output",
+    "up": "croparia:blocks/input",
+    "down": "croparia:blocks/input"
+  }
+}

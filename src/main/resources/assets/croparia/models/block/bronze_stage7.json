@@ -1,0 +1,6 @@
+{
+    "parent": "block/crop",
+    "textures": {
+        "crop": "croparia:blocks/crop/bronze_stage_7"
+    }
+}

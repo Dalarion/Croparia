@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_magma"
+    }
+    ],
+  "result": {
+    "item": "minecraft:magma_cream",
+    "count": 2
+  },
+    "group": "CropariaFruitMonster"
+}

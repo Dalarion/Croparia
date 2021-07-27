@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_clay"
+    }
+    ],
+  "result": {
+    "item": "minecraft:clay_ball",
+    "count": 6
+  },
+    "group": "CropariaFruitMat"
+}

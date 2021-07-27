@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "croparia:seed_crop_darkoak"
+    ]
+  },
+  "criteria": {
+    "has_darkoak_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dark_oak_sapling"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "croparia:seed_crop_darkoak"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_darkoak_ingredient",
+      "has_the_recipe"
+    ]
+  ]
+}

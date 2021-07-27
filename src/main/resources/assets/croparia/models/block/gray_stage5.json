@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "croparia:blocks/crop/gray_stage_5"
+  }
+}

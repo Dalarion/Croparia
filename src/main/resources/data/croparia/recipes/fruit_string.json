@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_string"
+    }
+    ],
+  "result": {
+    "item": "minecraft:string",
+    "count": 2
+  },
+    "group": "CropariaFruitMonster"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_star"
+    }
+    ],
+  "result": {
+    "item": "minecraft:nether_star",
+    "count": 2
+  },
+    "group": "CropariaFruitMonster"
+}

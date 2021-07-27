@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_emerald"
+    }
+    ],
+  "result": {
+    "item": "minecraft:emerald",
+    "count": 2
+  },
+    "group": "CropariaFruit"
+}

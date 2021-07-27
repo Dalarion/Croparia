@@ -1,0 +1,12 @@
+{
+  "type": "croparia:shapeless_tag",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_tinkers_bronze"
+    }
+    ],
+  "result": {
+    "tag": "forge:ingots/silicon_bronze",
+    "count": 2
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:egg"
+      
+    },
+	{
+      "item": "minecraft:sugar"
+      
+    },
+	{
+      "item": "croparia:seed_crop_kiwi"
+      
+    },
+   	{
+      "item": "croparia:seed_crop_kiwi"
+      
+    },
+		{
+      "item": "croparia:seed_crop_kiwi"
+      
+    }
+  ],
+  "result": {
+    "item": "croparia:kiwi_pie",
+    "count": 1
+  }
+}

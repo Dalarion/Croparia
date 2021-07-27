@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "croparia:seed_crop_leather"
+    ]
+  },
+  "criteria": {
+    "has_leather_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:leather"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "croparia:seed_crop_leather"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_leather_ingredient",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "croparia:shapeless_tag",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_lumium"
+    }
+    ],
+  "result": {
+    "tag": "forge:ingots/lumium",
+    "count": 2
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "croparia:shapeless_tag",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_osmium"
+    }
+    ],
+  "result": {
+    "tag": "forge:ingots/osmium",
+    "count": 2
+  }
+}

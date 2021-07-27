@@ -1,0 +1,12 @@
+{
+  "type": "croparia:shapeless_tag",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_aquamarine"
+    }
+    ],
+  "result": {
+    "tag": "forge:gems/aquamarine",
+    "count": 2
+  }
+}

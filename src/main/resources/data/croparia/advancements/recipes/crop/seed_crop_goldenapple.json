@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "croparia:seed_crop_goldenapple"
+    ]
+  },
+  "criteria": {
+    "has_goldenapple_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:golden_apple"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "croparia:seed_crop_goldenapple"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_goldenapple_ingredient",
+      "has_the_recipe"
+    ]
+  ]
+}

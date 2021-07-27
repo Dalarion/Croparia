@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "croparia:seed_crop_yellow"
+    ]
+  },
+  "criteria": {
+    "has_yellow_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:yellow_dye"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "croparia:seed_crop_yellow"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_yellow_ingredient",
+      "has_the_recipe"
+    ]
+  ]
+}

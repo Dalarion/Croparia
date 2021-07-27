@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:renforced_axe"
+    },
+    {
+      "item": "croparia:renforced_pickaxe"
+    },
+    {
+      "item": "croparia:renforced_shovel"
+    },
+    {
+      "item": "croparia:renforced_hoe"
+    }
+    ],
+  "result": {
+    "item": "croparia:renforced_multitool"
+  },
+    "group": "Multitool"
+}

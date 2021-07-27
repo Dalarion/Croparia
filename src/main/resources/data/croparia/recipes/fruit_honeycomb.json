@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_honeycomb"
+    }
+    ],
+  "result": {
+    "item": "minecraft:honeycomb",
+    "count": 2
+  }
+}

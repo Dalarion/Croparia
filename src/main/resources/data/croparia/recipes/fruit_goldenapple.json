@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_goldenapple"
+    }
+    ],
+  "result": {
+    "item": "minecraft:golden_apple",
+    "count": 2
+  },
+    "group": "CropariaFruitFood"
+}

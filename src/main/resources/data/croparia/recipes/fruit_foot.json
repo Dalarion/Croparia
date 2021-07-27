@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_foot"
+    }
+    ],
+  "result": {
+    "item": "minecraft:rabbit_foot",
+    "count": 2
+  },
+    "group": "CropariaFruitAnimal"
+}

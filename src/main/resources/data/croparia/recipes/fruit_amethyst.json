@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_amethyst"
+    }
+    ],
+  "result": {
+    "item": "minecraft:amethyst_shard",
+    "count": 2
+  }
+}

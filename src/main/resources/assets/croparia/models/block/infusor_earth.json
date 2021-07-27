@@ -1,0 +1,25 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+    "textures": {
+        "particle": "croparia:blocks/infusor_earth_top",
+        "0": "croparia:blocks/infusor_earth_ns",
+        "1": "croparia:blocks/infusor_earth_ew",
+        "2": "croparia:blocks/infusor_earth_top",
+        "3": "croparia:blocks/infusor_earth_bottom"
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 0.0, 0.0, 0.0 ], 
+            "to": [ 16.0, 8.0, 16.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 8.0 ] },
+                "east": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 8.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 8.0 ] },
+                "west": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 8.0 ] },
+                "up": { "texture": "#2", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "down": { "texture": "#3", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_acacia"
+    }
+    ],
+  "result": {
+    "item": "minecraft:acacia_sapling",
+    "count": 2
+  },
+    "group": "CropariaFruitTree"
+}

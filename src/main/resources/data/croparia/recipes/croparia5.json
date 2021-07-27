@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  "PIP", 
+  "IPI", 
+  "PIP"
+  ],
+  "key": {
+    "I": {
+      "item": "croparia:elematilius"
+    },
+    "P": {
+      "item": "croparia:croparia4"
+    }
+  },
+  "result": {
+    "item": "croparia:croparia5"
+  },
+    "group": "Croparia"
+}

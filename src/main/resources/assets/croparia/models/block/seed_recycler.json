@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "minecraft:block/polished_andesite",
+        "down": "minecraft:block/polished_andesite",
+        "up": "croparia:blocks/seed_recycler_top",
+        "north": "croparia:blocks/seed_recycler_side",
+        "east": "croparia:blocks/seed_recycler_side",
+        "south": "croparia:blocks/seed_recycler_side",
+        "west": "croparia:blocks/seed_recycler_side"
+    }
+}

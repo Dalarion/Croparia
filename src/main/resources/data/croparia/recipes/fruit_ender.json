@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_ender"
+    }
+    ],
+  "result": {
+    "item": "minecraft:ender_pearl",
+    "count": 2
+  },
+    "group": "CropariaFruitMonster"
+}

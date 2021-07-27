@@ -1,0 +1,12 @@
+{
+  "type": "croparia:shapeless_tag",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_ichorball"
+    }
+    ],
+  "result": {
+    "tag": "forge:slimeball/ichor",
+    "count": 2
+  }
+}

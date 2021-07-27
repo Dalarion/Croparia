@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_redstone"
+    }
+    ],
+  "result": {
+    "item": "minecraft:redstone",
+    "count": 6
+  },
+    "group": "CropariaFruit"
+}

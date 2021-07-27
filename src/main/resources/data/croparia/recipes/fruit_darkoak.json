@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_darkoak"
+    }
+    ],
+  "result": {
+    "item": "minecraft:dark_oak_sapling",
+    "count": 2
+  },
+    "group": "CropariaFruitTree"
+}

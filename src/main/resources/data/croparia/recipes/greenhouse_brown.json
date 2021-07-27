@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sgs",
+    "G G",
+    "G G"
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "g": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "G": {
+      "item": "minecraft:brown_stained_glass_pane"
+    }
+  },
+  "result": {
+    "item": "croparia:greenhouse_brown"
+  },
+    "group": "greenhouse"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  " D ", 
+  "DOD", 
+  " D "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "O":
+    {
+      "item": "croparia:obsidian_pestle"
+    }
+  },
+  "result": {
+    "item": "croparia:renforced_pestle"
+  },
+    "group": "Pestle"
+}

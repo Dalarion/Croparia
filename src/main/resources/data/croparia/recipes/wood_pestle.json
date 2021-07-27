@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  " O", 
+  "D "
+  ],
+  "key": {
+    "D": {
+      "tag": "minecraft:planks"
+    },
+    "O":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "croparia:wood_pestle"
+  },
+    "group": "Pestle"
+}

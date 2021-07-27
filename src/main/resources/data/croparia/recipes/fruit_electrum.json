@@ -1,0 +1,12 @@
+{
+  "type": "croparia:shapeless_tag",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_electrum"
+    }
+    ],
+  "result": {
+    "tag": "forge:ingots/electrum",
+    "count": 2
+  }
+}

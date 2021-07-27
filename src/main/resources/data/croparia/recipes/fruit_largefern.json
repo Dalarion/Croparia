@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "croparia:fruit_largefern"
+    }
+    ],
+  "result": {
+    "item": "minecraft:large_fern",
+    "count": 2
+  },
+    "group": "CropariaFruitNatural"
+}
