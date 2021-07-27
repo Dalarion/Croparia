@@ -2,6 +2,9 @@ package com.croparia.mod;
 
 import com.croparia.mod.client.render.RenderingHandler;
 import com.croparia.mod.core.init.*;
+import net.minecraft.network.chat.CommonComponents;
+import net.minecraft.network.chat.TextComponent;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
@@ -52,7 +55,7 @@ public class CropariaMod
     private void setup(final FMLCommonSetupEvent event)
     {
     	RecipesInit.registerRecipes();
-     // RecipesInit.registerRitualRecipe();
+        RecipesInit.registerRitualRecipe();
    // 	ModDispenserBehavior.registerBehavior();
     }
     
@@ -85,4 +88,8 @@ public class CropariaMod
 		double rand = Math.random() * (1.1 - 0.9) + 0.9;
 		return (int) ((3 * rand) * 20);
 	}
+
+	public static void sendMessage(Player player, String string){
+        player.displayClientMessage(new TextComponent(string), true);
+    }
 }

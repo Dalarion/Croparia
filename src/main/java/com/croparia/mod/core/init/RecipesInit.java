@@ -1,9 +1,11 @@
 package com.croparia.mod.core.init;
 
 import com.croparia.mod.core.recipes.InfusorRecipe;
+import com.croparia.mod.core.recipes.RitualRecipe;
 import com.croparia.mod.core.util.ElementsEnum;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.brewing.BrewingRecipe;
 import net.minecraftforge.common.brewing.BrewingRecipeRegistry;
 
@@ -79,19 +81,19 @@ public class RecipesInit {
 		InfusorRecipe.addRecipe("air_sword", ItemInit .RENFORCED_SWORD.get(), ElementsEnum.AIR, ItemInit.AIR_SWORD.get());
 		InfusorRecipe.addRecipe("air_hoe", ItemInit .RENFORCED_HOE.get(), ElementsEnum.AIR, ItemInit.AIR_HOE.get());
 	}
-/*
+
 	public static void registerRitualRecipe() 
 	{	
 		RitualRecipe.addRecipe("midas", Items.STICK, Blocks.GOLD_BLOCK.defaultBlockState(), ItemInit.MIDAS_HAND.get(), 1);
 		RitualRecipe.addRecipe("horn_plenty", Items.SPRUCE_LOG, Blocks.NETHER_WART_BLOCK.defaultBlockState(), ItemInit.HORN_PLENTY.get(), 1);
 		RitualRecipe.addRecipe("infinite_apple", Items.GOLDEN_APPLE, Blocks.NETHER_WART_BLOCK.defaultBlockState(), ItemInit.INFINITE_APPLE.get(), 1);
 		
-		RitualRecipe.addRecipe("accelerator", Items.CLOCK, BlockInit.ELEMENTAL_STONE.get().defaultBlockState(), ItemInit.ACCELERATOR.get(), 2);
-		RitualRecipe.addRecipe("elemental_time", ItemInit.ELEMATILIUS.get(), BlockInit.ACCELERATOR.get().defaultBlockState(), ItemInit.ELEMENTAL_TIME.get(), 2);
-		RitualRecipe.addRecipe("collector", ItemInit.RENFORCED_HOE.get(), Blocks.IRON_BLOCK.defaultBlockState(), ItemInit.COLLECTOR.get(), 2);
+	//	RitualRecipe.addRecipe("accelerator", Items.CLOCK, BlockInit.ELEMENTAL_STONE.get().defaultBlockState(), ItemInit.ACCELERATOR.get(), 2);
+	//	RitualRecipe.addRecipe("elemental_time", ItemInit.ELEMATILIUS.get(), BlockInit.ACCELERATOR.get().defaultBlockState(), ItemInit.ELEMENTAL_TIME.get(), 2);
+	//	RitualRecipe.addRecipe("collector", ItemInit.RENFORCED_HOE.get(), Blocks.IRON_BLOCK.defaultBlockState(), ItemInit.COLLECTOR.get(), 2);
 	}
 
-	 */
+
 
 
 	public static void registerBrewingRecipes()
