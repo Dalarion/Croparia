@@ -39,7 +39,7 @@ public class RecipesInit {
 		InfusorRecipe.addRecipe("elemental_earth", Items.PODZOL, ElementsEnum.ELEMENTAL, ItemInit.ELEMENTAL_EARTH.get());
 		InfusorRecipe.addRecipe("elemental_air", Items.END_STONE, ElementsEnum.ELEMENTAL, ItemInit.ELEMENTAL_AIR.get());
 
-	/*	InfusorRecipe.addRecipe("water_chest", ItemInit .RENFORCED_CHEST.get(), ElementsEnum.WATER, ItemInit.WATER_CHEST.get());
+		InfusorRecipe.addRecipe("water_chest", ItemInit .RENFORCED_CHEST.get(), ElementsEnum.WATER, ItemInit.WATER_CHEST.get());
 		InfusorRecipe.addRecipe("water_helm", ItemInit .RENFORCED_HELMET.get(), ElementsEnum.WATER, ItemInit.WATER_HELMET.get());
 		InfusorRecipe.addRecipe("water_legs", ItemInit .RENFORCED_LEGS.get(), ElementsEnum.WATER, ItemInit.WATER_LEGS.get());
 		InfusorRecipe.addRecipe("water_feet", ItemInit .RENFORCED_FEET.get(), ElementsEnum.WATER, ItemInit.WATER_FEET.get());
@@ -79,7 +79,7 @@ public class RecipesInit {
 		InfusorRecipe.addRecipe("air_sword", ItemInit .RENFORCED_SWORD.get(), ElementsEnum.AIR, ItemInit.AIR_SWORD.get());
 		InfusorRecipe.addRecipe("air_hoe", ItemInit .RENFORCED_HOE.get(), ElementsEnum.AIR, ItemInit.AIR_HOE.get());
 	}
-	
+/*
 	public static void registerRitualRecipe() 
 	{	
 		RitualRecipe.addRecipe("midas", Items.STICK, Blocks.GOLD_BLOCK.defaultBlockState(), ItemInit.MIDAS_HAND.get(), 1);
@@ -92,7 +92,7 @@ public class RecipesInit {
 	}
 
 	 */
-	}
+
 
 	public static void registerBrewingRecipes()
 	{
