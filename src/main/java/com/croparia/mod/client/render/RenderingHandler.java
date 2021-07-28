@@ -9,22 +9,28 @@ import net.minecraft.client.renderer.RenderType;
 public class RenderingHandler
 {
     public static void init() {
+
+    	//Crops
     	CropsInit.crops.forEach(crop -> {
 			ItemBlockRenderTypes.setRenderLayer(crop.getCrop().get(), RenderType.cutoutMipped());
     	});
-    	
+		CropsInit.moddedCrops.forEach(crop -> {
+			ItemBlockRenderTypes.setRenderLayer(crop.getCrop().get(), RenderType.cutoutMipped());
+		});
     	CropsInit.fruits.forEach(fruit -> {
 			ItemBlockRenderTypes.setRenderLayer(fruit.getCrop().get(), RenderType.cutoutMipped());
     	});
-    	
+
+    	//Greenhouses
     	Greenhouse.blockGreenhouse.forEach(block -> {
     		ItemBlockRenderTypes.setRenderLayer(block, RenderType.translucent());
     	});
-
-    	ItemBlockRenderTypes.setRenderLayer(BlockInit.RITUAL_STAND.get(), RenderType.cutoutMipped());
-    	
-    	//Empty array to free RAM
+    	//Empty array to free RAM (I suppose)
 		Greenhouse.blockGreenhouse.clear();
+
+		//Blocks
+    	ItemBlockRenderTypes.setRenderLayer(BlockInit.RITUAL_STAND.get(), RenderType.cutoutMipped());
+
 
 
     }

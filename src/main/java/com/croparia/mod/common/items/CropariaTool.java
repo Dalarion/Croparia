@@ -24,10 +24,12 @@ public class CropariaTool extends Item {
 		if(!level.isClientSide) {
 			BlockPos pos = context.getClickedPos();
 			BlockEntity be = level.getBlockEntity(pos);
-			if(be.getCapability(CapabilityEnergy.ENERGY).isPresent()) {
-				be.getCapability(CapabilityEnergy.ENERGY, null).ifPresent(cap -> {
-					context.getPlayer().displayClientMessage(new TextComponent(cap.getEnergyStored() + " / " + cap.getMaxEnergyStored() + " RF"), true);
-				});
+			if(be != null) {
+				if (be.getCapability(CapabilityEnergy.ENERGY).isPresent()) {
+					be.getCapability(CapabilityEnergy.ENERGY, null).ifPresent(cap -> {
+						context.getPlayer().displayClientMessage(new TextComponent(cap.getEnergyStored() + " / " + cap.getMaxEnergyStored() + " RF"), true);
+					});
+				}
 			}
 		}
 		return InteractionResult.SUCCESS;

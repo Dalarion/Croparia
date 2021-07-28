@@ -14,6 +14,7 @@ public class RecipesInit {
 	public static void registerRecipes(){
 		registerInfusorRecipes();
 		registerBrewingRecipes();
+		registerRitualRecipes();
 	}
 
 	public static void registerInfusorRecipes() {
@@ -41,48 +42,51 @@ public class RecipesInit {
 		InfusorRecipe.addRecipe("elemental_earth", Items.PODZOL, ElementsEnum.ELEMENTAL, ItemInit.ELEMENTAL_EARTH.get());
 		InfusorRecipe.addRecipe("elemental_air", Items.END_STONE, ElementsEnum.ELEMENTAL, ItemInit.ELEMENTAL_AIR.get());
 
-		InfusorRecipe.addRecipe("water_chest", ItemInit .RENFORCED_CHEST.get(), ElementsEnum.WATER, ItemInit.WATER_CHEST.get());
-		InfusorRecipe.addRecipe("water_helm", ItemInit .RENFORCED_HELMET.get(), ElementsEnum.WATER, ItemInit.WATER_HELMET.get());
-		InfusorRecipe.addRecipe("water_legs", ItemInit .RENFORCED_LEGS.get(), ElementsEnum.WATER, ItemInit.WATER_LEGS.get());
-		InfusorRecipe.addRecipe("water_feet", ItemInit .RENFORCED_FEET.get(), ElementsEnum.WATER, ItemInit.WATER_FEET.get());
-		InfusorRecipe.addRecipe("water_axe", ItemInit .RENFORCED_AXE.get(), ElementsEnum.WATER, ItemInit.WATER_AXE.get());
-		InfusorRecipe.addRecipe("water_pickaxe", ItemInit .RENFORCED_PICKAXE.get(), ElementsEnum.WATER, ItemInit.WATER_PICKAXE.get());
-		InfusorRecipe.addRecipe("water_shovel", ItemInit .RENFORCED_SHOVEL.get(), ElementsEnum.WATER, ItemInit.WATER_SHOVEL.get());
-		InfusorRecipe.addRecipe("water_sword", ItemInit .RENFORCED_SWORD.get(), ElementsEnum.WATER, ItemInit.WATER_SWORD.get());
-		InfusorRecipe.addRecipe("water_hoe", ItemInit .RENFORCED_HOE.get(), ElementsEnum.WATER, ItemInit.WATER_HOE.get());
+		InfusorRecipe.addRecipe("water_chest", ItemInit.RENFORCED_CHEST.get(), ElementsEnum.WATER, ItemInit.WATER_CHEST.get());
+		InfusorRecipe.addRecipe("water_helm", ItemInit.RENFORCED_HELMET.get(), ElementsEnum.WATER, ItemInit.WATER_HELMET.get());
+		InfusorRecipe.addRecipe("water_legs", ItemInit.RENFORCED_LEGS.get(), ElementsEnum.WATER, ItemInit.WATER_LEGS.get());
+		InfusorRecipe.addRecipe("water_feet", ItemInit.RENFORCED_FEET.get(), ElementsEnum.WATER, ItemInit.WATER_FEET.get());
+		InfusorRecipe.addRecipe("water_axe", ItemInit.RENFORCED_AXE.get(), ElementsEnum.WATER, ItemInit.WATER_AXE.get());
+		InfusorRecipe.addRecipe("water_pickaxe", ItemInit.RENFORCED_PICKAXE.get(), ElementsEnum.WATER, ItemInit.WATER_PICKAXE.get());
+		InfusorRecipe.addRecipe("water_shovel", ItemInit.RENFORCED_SHOVEL.get(), ElementsEnum.WATER, ItemInit.WATER_SHOVEL.get());
+		InfusorRecipe.addRecipe("water_sword", ItemInit.RENFORCED_SWORD.get(), ElementsEnum.WATER, ItemInit.WATER_SWORD.get());
+		InfusorRecipe.addRecipe("water_hoe", ItemInit.RENFORCED_HOE.get(), ElementsEnum.WATER, ItemInit.WATER_HOE.get());
 
-		InfusorRecipe.addRecipe("fire_chest", ItemInit .RENFORCED_CHEST.get(), ElementsEnum.FIRE, ItemInit.FIRE_CHEST.get());
-		InfusorRecipe.addRecipe("fire_helm", ItemInit .RENFORCED_HELMET.get(), ElementsEnum.FIRE, ItemInit.FIRE_HELMET.get());
-		InfusorRecipe.addRecipe("fire_legs", ItemInit .RENFORCED_LEGS.get(), ElementsEnum.FIRE, ItemInit.FIRE_LEGS.get());
-		InfusorRecipe.addRecipe("fire_feet", ItemInit .RENFORCED_FEET.get(), ElementsEnum.FIRE, ItemInit.FIRE_FEET.get());
-		InfusorRecipe.addRecipe("fire_axe", ItemInit .RENFORCED_AXE.get(), ElementsEnum.FIRE, ItemInit.FIRE_AXE.get());
-		InfusorRecipe.addRecipe("fire_pickaxe", ItemInit .RENFORCED_PICKAXE.get(), ElementsEnum.FIRE, ItemInit.FIRE_PICKAXE.get());
-		InfusorRecipe.addRecipe("fire_shovel", ItemInit .RENFORCED_SHOVEL.get(), ElementsEnum.FIRE, ItemInit.FIRE_SHOVEL.get());
-		InfusorRecipe.addRecipe("fire_sword", ItemInit .RENFORCED_SWORD.get(), ElementsEnum.FIRE, ItemInit.FIRE_SWORD.get());
-		InfusorRecipe.addRecipe("fire_hoe", ItemInit .RENFORCED_HOE.get(), ElementsEnum.FIRE, ItemInit.FIRE_HOE.get());
+		InfusorRecipe.addRecipe("fire_chest", ItemInit.RENFORCED_CHEST.get(), ElementsEnum.FIRE, ItemInit.FIRE_CHEST.get());
+		InfusorRecipe.addRecipe("fire_helm", ItemInit.RENFORCED_HELMET.get(), ElementsEnum.FIRE, ItemInit.FIRE_HELMET.get());
+		InfusorRecipe.addRecipe("fire_legs", ItemInit.RENFORCED_LEGS.get(), ElementsEnum.FIRE, ItemInit.FIRE_LEGS.get());
+		InfusorRecipe.addRecipe("fire_feet", ItemInit.RENFORCED_FEET.get(), ElementsEnum.FIRE, ItemInit.FIRE_FEET.get());
+		InfusorRecipe.addRecipe("fire_axe", ItemInit.RENFORCED_AXE.get(), ElementsEnum.FIRE, ItemInit.FIRE_AXE.get());
+		InfusorRecipe.addRecipe("fire_pickaxe", ItemInit.RENFORCED_PICKAXE.get(), ElementsEnum.FIRE, ItemInit.FIRE_PICKAXE.get());
+		InfusorRecipe.addRecipe("fire_shovel", ItemInit.RENFORCED_SHOVEL.get(), ElementsEnum.FIRE, ItemInit.FIRE_SHOVEL.get());
+		InfusorRecipe.addRecipe("fire_sword", ItemInit.RENFORCED_SWORD.get(), ElementsEnum.FIRE, ItemInit.FIRE_SWORD.get());
+		InfusorRecipe.addRecipe("fire_hoe", ItemInit.RENFORCED_HOE.get(), ElementsEnum.FIRE, ItemInit.FIRE_HOE.get());
 
-		InfusorRecipe.addRecipe("earth_chest", ItemInit .RENFORCED_CHEST.get(), ElementsEnum.EARTH, ItemInit.EARTH_CHEST.get());
-		InfusorRecipe.addRecipe("earth_helm", ItemInit .RENFORCED_HELMET.get(), ElementsEnum.EARTH, ItemInit.EARTH_HELMET.get());
-		InfusorRecipe.addRecipe("earth_legs", ItemInit .RENFORCED_LEGS.get(), ElementsEnum.EARTH, ItemInit.EARTH_LEGS.get());
-		InfusorRecipe.addRecipe("earth_feet", ItemInit .RENFORCED_FEET.get(), ElementsEnum.EARTH, ItemInit.EARTH_FEET.get());
-		InfusorRecipe.addRecipe("earth_axe", ItemInit .RENFORCED_AXE.get(), ElementsEnum.EARTH, ItemInit.EARTH_AXE.get());
-		InfusorRecipe.addRecipe("earth_pickaxe", ItemInit .RENFORCED_PICKAXE.get(), ElementsEnum.EARTH, ItemInit.EARTH_PICKAXE.get());
-		InfusorRecipe.addRecipe("earth_shovel", ItemInit .RENFORCED_SHOVEL.get(), ElementsEnum.EARTH, ItemInit.EARTH_SHOVEL.get());
-		InfusorRecipe.addRecipe("earth_sword", ItemInit .RENFORCED_SWORD.get(), ElementsEnum.EARTH, ItemInit.EARTH_SWORD.get());
-		InfusorRecipe.addRecipe("earth_hoe", ItemInit .RENFORCED_HOE.get(), ElementsEnum.EARTH, ItemInit.EARTH_HOE.get());
+		InfusorRecipe.addRecipe("earth_chest", ItemInit.RENFORCED_CHEST.get(), ElementsEnum.EARTH, ItemInit.EARTH_CHEST.get());
+		InfusorRecipe.addRecipe("earth_helm", ItemInit.RENFORCED_HELMET.get(), ElementsEnum.EARTH, ItemInit.EARTH_HELMET.get());
+		InfusorRecipe.addRecipe("earth_legs", ItemInit.RENFORCED_LEGS.get(), ElementsEnum.EARTH, ItemInit.EARTH_LEGS.get());
+		InfusorRecipe.addRecipe("earth_feet", ItemInit.RENFORCED_FEET.get(), ElementsEnum.EARTH, ItemInit.EARTH_FEET.get());
+		InfusorRecipe.addRecipe("earth_axe", ItemInit.RENFORCED_AXE.get(), ElementsEnum.EARTH, ItemInit.EARTH_AXE.get());
+		InfusorRecipe.addRecipe("earth_pickaxe", ItemInit.RENFORCED_PICKAXE.get(), ElementsEnum.EARTH, ItemInit.EARTH_PICKAXE.get());
+		InfusorRecipe.addRecipe("earth_shovel", ItemInit.RENFORCED_SHOVEL.get(), ElementsEnum.EARTH, ItemInit.EARTH_SHOVEL.get());
+		InfusorRecipe.addRecipe("earth_sword", ItemInit.RENFORCED_SWORD.get(), ElementsEnum.EARTH, ItemInit.EARTH_SWORD.get());
+		InfusorRecipe.addRecipe("earth_hoe", ItemInit.RENFORCED_HOE.get(), ElementsEnum.EARTH, ItemInit.EARTH_HOE.get());
 
-		InfusorRecipe.addRecipe("air_chest", ItemInit .RENFORCED_CHEST.get(), ElementsEnum.AIR, ItemInit.AIR_CHEST.get());
-		InfusorRecipe.addRecipe("air_helm", ItemInit .RENFORCED_HELMET.get(), ElementsEnum.AIR, ItemInit.AIR_HELMET.get());
-		InfusorRecipe.addRecipe("air_legs", ItemInit .RENFORCED_LEGS.get(), ElementsEnum.AIR, ItemInit.AIR_LEGS.get());
-		InfusorRecipe.addRecipe("air_feet", ItemInit .RENFORCED_FEET.get(), ElementsEnum.AIR, ItemInit.AIR_FEET.get());
-		InfusorRecipe.addRecipe("air_axe", ItemInit .RENFORCED_AXE.get(), ElementsEnum.AIR, ItemInit.AIR_AXE.get());
-		InfusorRecipe.addRecipe("air_pickaxe", ItemInit .RENFORCED_PICKAXE.get(), ElementsEnum.AIR, ItemInit.AIR_PICKAXE.get());
-		InfusorRecipe.addRecipe("air_shovel", ItemInit .RENFORCED_SHOVEL.get(), ElementsEnum.AIR, ItemInit.AIR_SHOVEL.get());
-		InfusorRecipe.addRecipe("air_sword", ItemInit .RENFORCED_SWORD.get(), ElementsEnum.AIR, ItemInit.AIR_SWORD.get());
-		InfusorRecipe.addRecipe("air_hoe", ItemInit .RENFORCED_HOE.get(), ElementsEnum.AIR, ItemInit.AIR_HOE.get());
+		InfusorRecipe.addRecipe("air_chest", ItemInit.RENFORCED_CHEST.get(), ElementsEnum.AIR, ItemInit.AIR_CHEST.get());
+		InfusorRecipe.addRecipe("air_helm", ItemInit.RENFORCED_HELMET.get(), ElementsEnum.AIR, ItemInit.AIR_HELMET.get());
+		InfusorRecipe.addRecipe("air_legs", ItemInit.RENFORCED_LEGS.get(), ElementsEnum.AIR, ItemInit.AIR_LEGS.get());
+		InfusorRecipe.addRecipe("air_feet", ItemInit.RENFORCED_FEET.get(), ElementsEnum.AIR, ItemInit.AIR_FEET.get());
+		InfusorRecipe.addRecipe("air_axe", ItemInit.RENFORCED_AXE.get(), ElementsEnum.AIR, ItemInit.AIR_AXE.get());
+		InfusorRecipe.addRecipe("air_pickaxe", ItemInit.RENFORCED_PICKAXE.get(), ElementsEnum.AIR, ItemInit.AIR_PICKAXE.get());
+		InfusorRecipe.addRecipe("air_shovel", ItemInit.RENFORCED_SHOVEL.get(), ElementsEnum.AIR, ItemInit.AIR_SHOVEL.get());
+		InfusorRecipe.addRecipe("air_sword", ItemInit.RENFORCED_SWORD.get(), ElementsEnum.AIR, ItemInit.AIR_SWORD.get());
+		InfusorRecipe.addRecipe("air_hoe", ItemInit.RENFORCED_HOE.get(), ElementsEnum.AIR, ItemInit.AIR_HOE.get());
+
+		InfusorRecipe.addRecipe("rf_meter", Items.BOOK, ElementsEnum.ELEMENTAL, ItemInit.TOOL.get());
+		InfusorRecipe.addRecipe("seed_recycler", Items.FURNACE, ElementsEnum.ELEMENTAL, ItemInit.SEED_RECYCLER.get());
 	}
 
-	public static void registerRitualRecipe() 
+	public static void registerRitualRecipes()
 	{	
 		RitualRecipe.addRecipe("midas", Items.STICK, Blocks.GOLD_BLOCK.defaultBlockState(), ItemInit.MIDAS_HAND.get(), 1);
 		RitualRecipe.addRecipe("horn_plenty", Items.SPRUCE_LOG, Blocks.NETHER_WART_BLOCK.defaultBlockState(), ItemInit.HORN_PLENTY.get(), 1);

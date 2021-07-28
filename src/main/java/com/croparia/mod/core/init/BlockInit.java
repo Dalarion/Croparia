@@ -51,4 +51,7 @@ public class BlockInit {
     public static void registerCrop(Crops crop){
         crop.setCrop(BLOCKS.register("block_crop_" + crop.getName(), () -> new CropariaCrops(crop)));
     }
+    public static void registerModdedCrop(Crops crop){
+        crop.setCrop(BLOCKS.register("block_crop_" + crop.getName(), () -> new CropariaModdedCrops(crop)));
+    }
 }

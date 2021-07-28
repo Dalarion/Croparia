@@ -2,13 +2,22 @@ package com.croparia.mod;
 
 import com.croparia.mod.client.render.RenderingHandler;
 import com.croparia.mod.core.init.*;
+import com.croparia.mod.world.generation.PlantsGenerations;
+import net.minecraft.core.Registry;
 import net.minecraft.network.chat.CommonComponents;
 import net.minecraft.network.chat.TextComponent;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.*;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraftforge.eventbus.api.EventPriority;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -20,6 +29,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.core.script.ScriptRef;
 
+import java.util.function.Function;
+
 @Mod("croparia")
 public class CropariaMod
 {
@@ -27,8 +38,6 @@ public class CropariaMod
     public static final String mod_id = "croparia";
     public static final CreativeModeTab MAIN = new CropariaGroup("main");
     public static final CreativeModeTab CROP = new CropariaCropGroup("crop");
-
-    public static VoxelShape NULL_SHAPE = Block.box(0.0D, 0.0D, 0.0D, 0.0D, 0.0D, 0.0D);
 
     public CropariaMod() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -43,21 +52,19 @@ public class CropariaMod
 
         MenuInit.CONTAINERS_TYPES.register(bus);
 
-     /*
-        bus.addGenericListener(Feature.class, PlantsGenerations::registerFeatures);
 
-		MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, PlantsGenerations::generatePlants);
-		
+    //  bus.addGenericListener(Feature.class, PlantsGenerations::registerFeatures);
+	//	MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, PlantsGenerations::generatePlants);
+
 		bus.register(new ModRecipeSerializers());
-		*/
+
         MinecraftForge.EVENT_BUS.register(this);
     }
 
     private void setup(final FMLCommonSetupEvent event)
     {
     	RecipesInit.registerRecipes();
-        RecipesInit.registerRitualRecipe();
-   // 	ModDispenserBehavior.registerBehavior();
+    	DispenserBehaviorInit.registerBehavior();
     }
     
     private void doClientStuff(final FMLClientSetupEvent event) 
@@ -94,4 +101,12 @@ public class CropariaMod
 	public static void sendMessage(Player player, String string){
         player.displayClientMessage(new TextComponent(string), true);
     }
+
+    public static Item getItemFromTag(String tag) throws NoSuchFieldException {
+        Function<ResourceLocation, NoSuchFieldException> func = message -> new NoSuchFieldException(message.toString());
+        Tag<Item> itemTag = SerializationTags.getInstance().getTagOrThrow(Registry.ITEM_REGISTRY, new ResourceLocation(tag), func);
+        return itemTag.getValues().get(0);
+
+    }
+
 }

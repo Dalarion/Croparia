@@ -3,6 +3,7 @@ package com.croparia.mod.core.init;
 import com.croparia.mod.core.Crops;
 import com.croparia.mod.core.util.FruitsEnum;
 import net.minecraft.world.item.Items;
+import net.minecraftforge.fml.ModList;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,6 +11,7 @@ import java.util.List;
 public class CropsInit {
 
     public static List<Crops> crops = new ArrayList<Crops>();
+    public static List<Crops> moddedCrops = new ArrayList<Crops>();
     public static List<Crops> fruits = new ArrayList<Crops>();
 
     public static final Crops ORANGE1 = new Crops("orange1");
@@ -118,6 +120,48 @@ public class CropsInit {
     public static final Crops COPPER = new Crops("copper", 2);
     public static final Crops AMETHYST = new Crops("amethyst", 3);
     public static final Crops GOAT = new Crops("goat", 1);
+
+    public static final Crops BRONZE = new Crops("bronze", 2);
+    public static final Crops REFINED_OBSIDIAN = new Crops("refined_obsidian", 2);
+    public static final Crops REFINED_GLOWSTONE = new Crops("refined_glowstone", 2);
+    public static final Crops STEEL = new Crops("steel", 2);
+    public static final Crops OSMIUM = new Crops("osmium", 2);
+    public static final Crops TIN = new Crops("tin", 2);
+    public static final Crops LEAD = new Crops("lead", 2);
+    public static final Crops URANIUM = new Crops("uranium", 2);
+    public static final Crops ALUMINIUM = new Crops("aluminium", 2);
+    public static final Crops SILVER1 = new Crops("silver1", 2);
+    public static final Crops NICKEL = new Crops("nickel", 2);
+    public static final Crops CONSTANTAN = new Crops("constantan", 2);
+    public static final Crops ELECTRUM = new Crops("electrum", 2);
+    public static final Crops HOP_GRAPHITE = new Crops("hop_graphite", 2);
+    public static final Crops INVAR = new Crops("invar", 2);
+    public static final Crops SIGNALUM = new Crops("signalum", 3);
+    public static final Crops LUMIUM = new Crops("lumium", 3);
+    public static final Crops ENDERIUM = new Crops("enderium", 3);
+    public static final Crops KNIGHTMETAL = new Crops("knightmetal", 3);
+    public static final Crops IRONWOOD = new Crops("ironwood", 3);
+    public static final Crops FIERY = new Crops("fiery", 3);
+    public static final Crops STEELEAF = new Crops("steeleaf", 3);
+    public static final Crops AQUAMARINE = new Crops("aquamarine", 2);
+    public static final Crops STARMETAL = new Crops("starmetal", 2);
+    public static final Crops MANASTEEL = new Crops("manasteel", 2);
+    public static final Crops TERRASTEEL = new Crops("terrasteel", 3);
+    public static final Crops ELEMENTIUM = new Crops("elementium", 3);
+    public static final Crops DRAGONSTONE = new Crops("dragonstone", 3);
+    public static final Crops COBALT = new Crops("cobalt", 3);
+    public static final Crops HEPATIZON = new Crops("hepatizon", 3);
+    public static final Crops KNIGHTSLIME = new Crops("knightslime", 3);
+    public static final Crops MANYULLYN = new Crops("manyullyn", 3);
+    public static final Crops PIG_IRON = new Crops("pigiron", 3);
+    public static final Crops QUEENS_SLIME = new Crops("queens_slime", 3);
+    public static final Crops ROSE_GOLD = new Crops("rose_gold", 3);
+    public static final Crops SILICON_BRONZE = new Crops("tinkers_bronze", 3);
+    public static final Crops SLIMESTEEL = new Crops("slimesteel", 3);
+    public static final Crops SOULSTEEL = new Crops("soulsteel", 3);
+    public static final Crops ENDERBALL = new Crops("enderball", 2);
+    public static final Crops ICHORBALL = new Crops("ichorball", 2);
+    public static final Crops SKYBALL = new Crops("skyball", 2);
 
     public static void register() {
 
@@ -230,13 +274,86 @@ public class CropsInit {
         registry(AMETHYST);
 
         // Not 1.17 ... 1.18 ?
-      //  registry(GOAT);
+        // registry(GOAT);
+
+        //Mekanism update
+        registryWithMod(BRONZE, "mekanism", "thermal");
+        registryWithMod(REFINED_OBSIDIAN, "mekanism");
+        registryWithMod(REFINED_GLOWSTONE, "mekanism");
+        registryWithMod(STEEL, "mekanism", "immersiveengineering");
+        registryWithMod(OSMIUM, "mekanism");
+        registryWithMod(TIN, "mekanism", "thermal");
+        registryWithMod(LEAD, "mekanism", "immersiveengineering", "thermal");
+        registryWithMod(URANIUM, "mekanism", "immersiveengineering");
+
+        //Immersive Engineering update
+        registryWithMod(ALUMINIUM, "immersiveengineering");
+        registryWithMod(SILVER1, "immersiveengineering", "thermal");
+        registryWithMod(NICKEL, "immersiveengineering", "thermal");
+        registryWithMod(CONSTANTAN, "immersiveengineering", "thermal");
+        registryWithMod(ELECTRUM, "immersiveengineering", "thermal");
+        registryWithMod(HOP_GRAPHITE, "immersiveengineering");
+
+        //Thermal update
+        registryWithMod(INVAR, "thermal");
+        registryWithMod(SIGNALUM, "thermal");
+        registryWithMod(LUMIUM, "thermal");
+        registryWithMod(ENDERIUM, "thermal");
+
+        //Twilight Forest
+        registryWithMod(KNIGHTMETAL, "twilightforest");
+        registryWithMod(IRONWOOD, "twilightforest");
+        registryWithMod(FIERY, "twilightforest");
+        registryWithMod(STEELEAF, "twilightforest");
+
+        //Astral Sorcery
+        registryWithMod(AQUAMARINE, "astralsorcery");
+        registryWithMod(STARMETAL, "astralsorcery");
+
+        //Botania
+        registryWithMod(MANASTEEL, "botania");
+        registryWithMod(TERRASTEEL, "botania");
+        registryWithMod(ELEMENTIUM, "botania");
+        registryWithMod(DRAGONSTONE, "botania");
+
+        //Tinker
+        registryWithMod(COBALT, "tconstruct");
+        registryWithMod(HEPATIZON, "tconstruct");
+        registryWithMod(KNIGHTSLIME, "tconstruct");
+        registryWithMod(MANYULLYN, "tconstruct");
+        registryWithMod(PIG_IRON, "tconstruct");
+        registryWithMod(QUEENS_SLIME, "tconstruct");
+        registryWithMod(ROSE_GOLD, "tconstruct");
+        registryWithMod(SILICON_BRONZE, "tconstruct");
+        registryWithMod(SLIMESTEEL, "tconstruct");
+        registryWithMod(SOULSTEEL, "tconstruct");
+        registryWithMod(ENDERBALL, "tconstruct");
+        registryWithMod(ICHORBALL, "tconstruct");
+        registryWithMod(SKYBALL, "tconstruct");
     }
     public static void registry(Crops crop) {
         if(!crops.contains(crop)) {
             crops.add(crop);
             BlockInit.registerCrop(crop);
             ItemInit.registerFruitAndSeed(crop);
+        }
+    }
+
+    public static void registryWithMod(Crops crop, String... modName){
+        if(!moddedCrops.contains(crop)){
+            boolean load = false;
+            int i = 0;
+            while(i < modName.length && !load) {
+                if(ModList.get().isLoaded(modName[i])) {
+                    load = true;
+                }
+                i++;
+            }
+            if(load) {
+                moddedCrops.add(crop);
+                BlockInit.registerModdedCrop(crop);
+                ItemInit.registerFruitAndSeed(crop);
+            }
         }
     }
 

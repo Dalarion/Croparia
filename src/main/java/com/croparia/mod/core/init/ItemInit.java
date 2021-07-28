@@ -211,7 +211,7 @@ public class ItemInit {
         else if(item == POTION_EARTH.get()) {
             return ElementsEnum.EARTH;
         }
-        else{
+        else {
             return ElementsEnum.EMPTY;
         }
     }
