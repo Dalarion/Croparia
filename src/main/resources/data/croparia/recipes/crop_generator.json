@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  "ISI",
+  "CRC",
+  "ISI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R":
+    {
+      "item": "minecraft:redstone_block"
+    },
+    "C":
+    {
+      "item": "croparia:seed_crop_elemental"
+    },
+    "S":
+    {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "result": {
+    "item": "croparia:crop_generator"
+  }
+}
